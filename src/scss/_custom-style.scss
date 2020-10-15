@@ -1,0 +1,164 @@
+//Guide style
+.guide-wrap {
+  padding: 20px;
+
+  & > * {
+    margin-bottom: 15px;
+  }
+}
+
+main {
+  padding-left: $asideWidth;
+  padding-top: 120px;
+}
+
+@media (max-width: 767px) {
+  main {
+    padding-top: 100px;
+  }
+}
+
+.toggle-mode {
+
+  .toggle {
+    width: 32px;
+    height: 21px;
+    margin: 0 15px
+  }
+  .checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    //margin: 10px 0 0 20px;
+  }
+  .checkbox + label {
+    position: relative;
+    cursor: pointer;
+    height: 12px;
+  }
+  .checkbox + label:before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: 0;
+    width: 32px;
+    height: 21px;
+    border-radius: 13px;
+    background-color: transparent;
+    transition: .2s;
+    border: 2px $green solid;
+  }
+  .checkbox + label:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: $green;
+    transition: .2s;
+  }
+
+  .checkbox:checked + label:after {
+    left: 4px;
+  }
+
+}
+
+@media (max-width: 599px) {
+  .toggle-mode {
+    .checkbox {
+      & + label {
+        &:before {
+          top: -2px;
+          width: 28px;
+          height: 17px;
+        }
+        &:after {
+          top: 1.3px;
+          left: 13.5px;
+          width: 10.5px;
+          height: 10.5px;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 479px) {
+  .toggle-mode {
+
+    .toggle {
+      width: 26px;
+    }
+    .checkbox {
+      & + label {
+        &:before {
+          top: -1px;
+          width: 26px;
+          height: 15px;
+        }
+        &:after {
+          top: 2.55px;
+          left: 13.9px;
+          width: 8px;
+          height: 8px;
+        }
+      }
+    }
+  }
+}
+
+.column-66-calc {
+  .scrollbar-inner>.scroll-element.scroll-x {
+    display: none;
+  }
+  .table {
+    &.block-fluid {
+      box-shadow: none;
+    }
+    table {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.news-section {
+  .image-wrap {
+    height: 380px;
+    background-color: #fff;
+
+    img {
+      max-height: 100%;
+      display: inline-block;
+    }
+  }
+
+  .block-fluid {
+    margin: 0;
+  }
+
+
+}
+
+//night mode
+
+.night-mode {
+  .news-section .image-wrap {
+    background-color: $darkBgc;
+  }
+  .news-section {
+    .slick-dots {
+      li {
+        background-color: #414656;
+      }
+
+    }
+  }
+}
+
+//
+
+

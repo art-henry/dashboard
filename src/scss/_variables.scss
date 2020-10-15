@@ -1,0 +1,89 @@
+// Font var
+$fontFamily: 'Rubik', sans-serif;
+$fontFamilyGtWalsheim: 'gt_walsheim';
+$fontLight: 300;
+$fontRegular: 400;
+$fontMedium: 500;
+$lineHeight: 1;
+$fontSize: 15px;
+$fontFamilyGilRoyRegular: 'gilroyregular';
+$fontSizeGilRoyRegular: 14px;
+
+//General Color var
+$grey: #898f97;
+$darkGrey: #4e5665;
+$darkBgc: #2f323e;
+$white: #fff;
+$green: #2cd07e;
+$violet: #707cd2;
+$blue: #73b2ff;
+
+//Day mode Color var
+$black: #313131;
+$lightBlack: #585858;
+$lightGreyBgc: #edf0f3;
+
+//Night mode Color var
+
+$lightNightBgc: #353846;
+$extraLightNightGrey: #b2b9bf;
+$lightNightGrey: #8898aa;
+$nightGreBlue: #525f77;
+$lightOrange: #ffa200;
+
+//Default indent (отступы)
+$defaultIndent: 30px;
+$defaultHeaderPadding: 0 30px;
+$defaultLittleBlockIndent: 20px;
+
+//Component var
+
+//Header component
+$arrowFontSize: 9px;
+$fontFamilyLogo: $fontFamilyGtWalsheim;
+$fontSizeLogo: 18px;
+$fontWeightLogo: bold;
+$colorLogo: $darkBgc;
+
+//Header component night mode
+$colorLogoNight: $extraLightNightGrey;
+
+//Aside component
+$asideBgc: $white;
+$asideWidth: 250px;
+$menu-block-height: 60px;
+$menu-block-width: 100%;
+$menu-block-icons-width: 35px;
+$menu-block-transform-bgc: #eaedf9;
+$menu-block-logo-bgc: $green;
+$menu-block-shop-bgc: #ffad26;
+
+//Links Component
+$linkColor: $grey;
+$linkColorHover: #2cabe3;
+$linkFontSizeDefault: 14px;
+
+//Titles component
+$titleBlackColor: $black;
+$titleLightBlackColor: $lightBlack;
+$titleNightColor: #b2b9bf;
+$titleFontSize: 16px;
+$titleLargeFont: 20px;
+$titleSmallFont: 14px;
+$titleNewsFontSize: 17px;
+
+//Buttons component
+$btnFontFamily: $fontFamilyGtWalsheim;
+$btnFontWeight: normal;
+$btnFontSize: 15px;
+$btnDefaultColor: $white;
+$btnDefaultBgc: $green;
+$btnShadowColor: #e4e4e7;
+
+//Tables component
+$tableFontSize: 15px;
+$tableTrBgcHover: $white;
+
+//sidebar
+$sidebarMobileWidth: 60px;
+
